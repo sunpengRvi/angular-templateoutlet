@@ -1,0 +1,11 @@
+<ng-template #customHeader>
+	<div class="custom-class">Some header content...</div>
+</ng-template>
+<ng-template #customBody>
+	<div class="custom-class">Some body content...</div>
+</ng-template>
+<ng-template #customFooter>
+	<div class="custom-class">Some footer content...</div>
+</ng-template>
+
+<template-projection [headerTemplate]="customHeader" [bodyTemplate]="customBody" [footerTemplate]="customFooter">
